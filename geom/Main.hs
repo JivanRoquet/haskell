@@ -4,5 +4,7 @@ import Geometry
 
 main :: IO ()
 main = do
-    print $ area circle1
-    print $ area rect1
+    print $ centroid circ1 <=> centroid rect1
+    print $ centroid circ2 <=> centroid rect2
+    print $ perimeter circ1
+    print $ perimeter rect1
